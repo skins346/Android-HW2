@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#696969"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YoungSong's \n To-Do List"
+        android:textColor="#39e258"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ps1"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:hint="   "
+            android:textSize="30dp"
+            android:layout_marginRight="50dp"
+            android:maxLength="1"
+            >
+        </EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ps2"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:hint="   "
+            android:textSize="30dp"
+            android:layout_marginRight="50dp"
+            android:maxLength="1"
+
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ps3"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:hint="   "
+            android:textSize="30dp"
+            android:layout_marginRight="50dp"
+            android:maxLength="1"
+
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ps4"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:hint="   "
+            android:textSize="30dp"
+            android:maxLength="1"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

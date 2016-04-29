@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/a"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+                    />
+
+                <TextView
+                    android:id="@+id/b"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="1교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="2교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/d"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="3교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/e"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="4교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/f"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="5교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/g"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="6교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+                <TextView
+                    android:id="@+id/h"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="7교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/i"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="8교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/j"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="9교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/k"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="10교시"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:background="#22000000"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id= "@+id/m"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/m1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="Mon" />
+
+                <TextView
+                    android:id="@+id/m2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+                    />
+
+                <TextView
+                    android:id="@+id/m3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="에듀에코\n세미나"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/m4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/m5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/m6"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="모바일\n프로그래밍"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/m7"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="모바일\n프로그래밍"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+                <TextView
+                    android:id="@+id/m8"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="경영학원론"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/m9"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="경영학원론"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/m10"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="경영학원론"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/m11"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:id= "@+id/t"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="Tue" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+                    android:text="건축문화사" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="건축문화사"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="컴퓨터\n그래픽스" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="컴퓨터\n그래픽스"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="컴퓨터\n그래픽스"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="컴퓨터\n그래픽스"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id= "@+id/w"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/w1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="Wed" />
+
+                <TextView
+                    android:id="@+id/w2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+                    />
+
+                <TextView
+                    android:id="@+id/w3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/w4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/w5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/w6"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="모바일\n프로그래밍" />
+
+                <TextView
+                    android:id="@+id/w7"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="모바일\n프로그래밍" />
+                <TextView
+                    android:id="@+id/w8"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/w9"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="소프트웨어\n산업세미나" />
+
+                <TextView
+                    android:id="@+id/w10"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="소프트웨어\n산업세미나" />
+
+                <TextView
+                    android:id="@+id/w11"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="소프트웨어\n산업세미나" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id= "@+id/th"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/th1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="Thu" />
+
+                <TextView
+                    android:id="@+id/th2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+                    />
+
+                <TextView
+                    android:id="@+id/th3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/th4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/th5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/th6"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/th7"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+                <TextView
+                    android:id="@+id/th8"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/th9"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/th10"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="졸업작품" />
+
+                <TextView
+                    android:id="@+id/th11"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="졸업작품" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:id= "@+id/F"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:id="@+id/f1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="Fri" />
+
+                <TextView
+                    android:id="@+id/f2"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+                    />
+
+                <TextView
+                    android:id="@+id/f3"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+
+                    android:text="소프트웨어\n공학" />
+
+                <TextView
+                    android:id="@+id/f4"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    android:text="소프트웨어\n공학" />
+
+                <TextView
+                    android:id="@+id/f5"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/f6"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/f7"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+                <TextView
+                    android:id="@+id/f8"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/f9"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/f10"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+
+                <TextView
+                    android:id="@+id/f11"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#22000000"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
